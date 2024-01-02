@@ -42,7 +42,6 @@ let batchList = [
         "topic": "NA"
     }
     
-   
     
 ]
 
