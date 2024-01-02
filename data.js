@@ -1,30 +1,15 @@
 
 let batchList = [
     // <!-- //om,abhish,suhas.satish,dev,lokesh ,exception vinoda,javascript -hareesha -->
-
     {
-        "batch": "Sep-27",
-        "trainer": "Omkar sir",
-        "topic": "Exception"
-    }, {
-        "batch": "Nov-27",
-        "trainer": "Abhishek",
-        "topic": "static methods"
+        "batch": "June-5",
+        "trainer": "Dev sir",
+        "topic": "Java 8 features"
     },
     {
         "batch": "June-7",
         "trainer": "Suhas",
         "topic": "Project"
-    },
-    {
-        "batch": "Online",
-        "trainer": "Satish sir",
-        "topic": "NA"
-    },
-    {
-        "batch": "June-5",
-        "trainer": "Dev sir",
-        "topic": "Search operation in Spring"
     },
     {
         "batch": "July-24",
@@ -39,8 +24,26 @@ let batchList = [
     {
         "batch": "Aug-21",
         "trainer": "Hareesha",
-        "topic": "javascript"
+        "topic": "Javascript"
+    },
+    {
+        "batch": "Sep-27",
+        "trainer": "Omkar sir",
+        "topic": "Exception"
+    }, {
+        "batch": "Nov-27",
+        "trainer": "Abhishek",
+        "topic": "Static methods"
+    },
+    
+    {
+        "batch": "Online",
+        "trainer": "Satish sir",
+        "topic": "NA"
     }
+    
+   
+    
 ]
 
 let weeklyMock = [
