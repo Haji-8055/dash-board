@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DashBoard</title>
+    <title>X-workz</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+    <link rel="icon" type="image/x-icon" href="https://www.x-workz.in/static/media/Logo.cf195593dc1b3f921369.png">
 
     <script type="text/javascript" src="data.js"></script>
 
@@ -25,26 +26,31 @@
 
     .logo {
         position: absolute;
-        bottom: 8px;
+        top: 8px;
         left: 16px;
+        margin-top: -1rem;
     }
 </style>
 
 <body>
 
-    <img src="https://www.x-workz.in/static/media/Logo.cf195593dc1b3f921369.png" alt="" width="120" height="60"
-        class="logo">
+    
     <div class="Topicss w3-responsive w3-animate-left">
-        <h1 class="w3-center w3-black"><b> ONGOING BATCH TOPICS</b></h1>
 
-        <table class="w3-table-all w3-xlarge" id="table1">
+        <span><h1 class="w3-center w3-black "><b> ONGOING BATCH DETAILS</b></h1></span>
+
+        <table class="w3-table-all w3-xlarge w3-black" id="table1">
             <tr class="w3-orange">
                 <th>Batch</th>
                 <th>Trainer</th>
                 <th>Topic</th>
+                <th>Timing</th>
+                <th>No of trainees</th>
             </tr>
         </table>
     </div>
+    <img src="https://www.x-workz.in/static/media/Logo.cf195593dc1b3f921369.png" alt="" width="120" height="60"
+        class="logo" style="padding-bottom: 5px;">
 
     <!-- <div class="Topicss w3-responsive w3-animate-left">
         <h2 class="w3-center w3-blue"><b>WEEKLY MOCK TEST</b></h2>
@@ -101,6 +107,8 @@
                 <th>${element.batch}</th>
                 <th>${element.trainer}</th>
                 <th>${element.topic}</th>
+                <th>${element.timing}</th>
+                <th class="w3-center">${element.trainees}</th>
             </tr>   
                     `;
             document.querySelector("#table1").insertAdjacentHTML('beforeend', newRow);

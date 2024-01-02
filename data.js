@@ -2,86 +2,109 @@
 let batchList = [
     // <!-- //om,abhish,suhas.satish,dev,lokesh ,exception vinoda,javascript -hareesha -->
     {
-        "batch": "June-5",
-        "trainer": "Dev sir",
-        "topic": "Java 8 features"
+        "batch": "June-5 Rajajinagar",
+        "trainer": "Devendra",
+        "topic": "Java 8 features",
+        "timing":"10 AM",
+        "trainees":"27"
     },
     {
-        "batch": "June-7",
+        "batch": "June-7 BTM",
         "trainer": "Suhas",
-        "topic": "Project"
+        "topic": "Project",
+        "timing":"10 AM",
+        "trainees":"14"
     },
     {
-        "batch": "July-24",
-        "trainer": "Lokesh sir",
-        "topic": "JDBC"
+        "batch": "June-19 Rajajinagar",
+        "trainer": "Omkar",
+        "topic": "Project",
+        "timing":"4 PM",
+        "trainees":"30"
     },
     {
-        "batch": "Aug-21",
+        "batch": "July-24 Rajajinagar",
+        "trainer": "Lokesh",
+        "topic": "JDBC",
+        "timing":"1:45 PM",
+        "trainees":"23"
+    },
+    {
+        "batch": "Aug-21 Rajajinagar",
         "trainer": "Vinoda",
-        "topic": "Exception"
+        "topic": "Exception",
+        "timing":"6 AM",
+        "trainees":"11"
     },
     {
-        "batch": "Aug-21",
+        "batch": "Aug-21 Rajajinagar",
         "trainer": "Hareesha",
-        "topic": "Javascript"
+        "topic": "Javascript",
+        "timing":"4 AM",
+        "trainees":"11"
     },
     {
-        "batch": "Sep-27",
-        "trainer": "Omkar sir",
-        "topic": "Exception"
+        "batch": "Sep-27 BTM",
+        "trainer": "Omkar",
+        "topic": "Exception",
+        "timing":"12 PM",
+        "trainees":"19"
     }, {
-        "batch": "Nov-27",
+        "batch": "Nov-27 BTM",
         "trainer": "Abhishek",
-        "topic": "Static methods"
+        "topic": "Static methods",
+        "timing":"11 AM",
+        "trainees":"13"
     },
     
     {
         "batch": "Online",
         "trainer": "Satish sir",
-        "topic": "NA"
+        "topic": "NA",
+        "timing":"8:30 AM",
+        "trainees":"7"
     }
     
     
 ]
 
-let weeklyMock = [
+// let weeklyMock = [
 
-    {
-        "batch": "june 5",
-        "mock_spoc": "Hareesha",
-        "topic": "collection"
-    }, {
-        "batch": "nov",
-        "mock_spoc": "old students",
-        "topic": "exception"
-    },
-    {
-        "batch": "nov",
-        "mock_spoc": "om sir",
-        "topic": "exception"
-    }
-]
+//     {
+//         "batch": "june 5",
+//         "mock_spoc": "Hareesha",
+//         "topic": "collection"
+//     }, {
+//         "batch": "nov",
+//         "mock_spoc": "old students",
+//         "topic": "exception"
+//     },
+//     {
+//         "batch": "nov",
+//         "mock_spoc": "om sir",
+//         "topic": "exception"
+//     }
+// ]
 
 
 
-let upcomingBatch = [
+// let upcomingBatch = [
 
-    {
-        "batch": "jan 5",
-        "trainer": "dev sir",
-        "location": "Rajajinagar"
-    }, {
-        "batch": "feb 10",
-        "trainer": "om sir",
-        "location": "Rajajinagar"
-    },
-    {
-        "batch": "feb 12",
-        "trainer": "hareesha",
-        "location": "BTM"
-    }
-]
+//     {
+//         "batch": "jan 5",
+//         "trainer": "dev sir",
+//         "location": "Rajajinagar"
+//     }, {
+//         "batch": "feb 10",
+//         "trainer": "om sir",
+//         "location": "Rajajinagar"
+//     },
+//     {
+//         "batch": "feb 12",
+//         "trainer": "hareesha",
+//         "location": "BTM"
+//     }
+// ]
 
 
 
