@@ -5,21 +5,21 @@ let batchList = [
         "batch": "June-5 Rajajinagar",
         "trainer": "Devendra",
         "topic": "Java 8 features",
-        "timing":"10 AM",
+        "timing":"10:00 AM",
         "trainees":"27"
     },
     {
         "batch": "June-7 BTM",
         "trainer": "Suhas",
         "topic": "Project",
-        "timing":"10 AM",
+        "timing":"10:00 AM",
         "trainees":"14"
     },
     {
         "batch": "June-19 Rajajinagar",
         "trainer": "Omkar",
         "topic": "Project",
-        "timing":"4 PM",
+        "timing":"4:00 PM",
         "trainees":"30"
     },
     {
@@ -33,34 +33,34 @@ let batchList = [
         "batch": "Aug-21 Rajajinagar",
         "trainer": "Vinoda",
         "topic": "Exception",
-        "timing":"6 AM",
+        "timing":"6:00 AM",
         "trainees":"11"
     },
     {
         "batch": "Aug-21 Rajajinagar",
         "trainer": "Hareesha",
         "topic": "Javascript",
-        "timing":"4 AM",
+        "timing":"4:00 AM",
         "trainees":"11"
     },
     {
         "batch": "Sep-27 BTM",
         "trainer": "Omkar",
         "topic": "Exception",
-        "timing":"12 PM",
+        "timing":"12:00 PM",
         "trainees":"19"
     }, {
         "batch": "Nov-27 BTM",
         "trainer": "Abhishek",
         "topic": "Static methods",
-        "timing":"11 AM",
+        "timing":"11:00 AM",
         "trainees":"13"
     },
     
     {
         "batch": "Online",
-        "trainer": "Satish sir",
-        "topic": "NA",
+        "trainer": "Satish",
+        "topic": "SQL",
         "timing":"8:30 AM",
         "trainees":"7"
     }

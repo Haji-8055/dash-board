@@ -24,12 +24,7 @@
         margin-top: -1rem;
     }
 
-    .logo {
-        position: absolute;
-        top: 8px;
-        left: 16px;
-        margin-top: -1rem;
-    }
+    
 </style>
 
 <body>
@@ -42,16 +37,14 @@
         <table class="w3-table-all w3-xlarge w3-black" id="table1">
             <tr class="w3-orange">
                 <th>Batch</th>
-                <th>Trainer</th>
-                <th>Topic</th>
-                <th>Timing</th>
-                <th>No of trainees</th>
+                <th class="w3-center">Trainer</th>
+                <th class="w3-center">Topic</th>
+                <th class="w3-center">Timing</th>
+                <th class="w3-center">No of trainees</th>
             </tr>
         </table>
     </div>
-    <img src="https://www.x-workz.in/static/media/Logo.cf195593dc1b3f921369.png" alt="" width="120" height="60"
-        class="logo" style="padding-bottom: 5px;">
-
+  
     <!-- <div class="Topicss w3-responsive w3-animate-left">
         <h2 class="w3-center w3-blue"><b>WEEKLY MOCK TEST</b></h2>
 
@@ -105,9 +98,9 @@
         batchList.forEach(element => {
             const newRow = ` <tr class="w3-black">
                 <th>${element.batch}</th>
-                <th>${element.trainer}</th>
-                <th>${element.topic}</th>
-                <th>${element.timing}</th>
+                <th class="w3-center">${element.trainer}</th>
+                <th class="w3-center">${element.topic}</th>
+                <th class="w3-center">${element.timing}</th>
                 <th class="w3-center">${element.trainees}</th>
             </tr>   
                     `;
