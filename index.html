@@ -65,7 +65,7 @@
         </table>
     </div>
 
-    <div class="Topicss w3-responsive w3-animate-left">
+    <!-- <div class="Topicss w3-responsive w3-animate-left">
         <h2 class="w3-center w3-blue"><b>WEEKLY MOCK TEST</b></h2>
 
         <table class="w3-table-all" id="table2">
@@ -87,7 +87,7 @@
                 <th>location</th>
             </tr>
         </table>
-    </div>
+    </div> -->
 
 
     <script>
@@ -126,25 +126,25 @@
         });
 
 
-        weeklyMock.forEach(element => {
-            const newRow = ` <tr class="w3-black">
-                <th>${element.batch}</th>
-                <th>${element.mock_spoc}</th>
-                <th>${element.topic}</th>
-            </tr>   
-                    `;
-            document.querySelector("#table2").insertAdjacentHTML('beforeend', newRow);
-        });
+        // weeklyMock.forEach(element => {
+        //     const newRow = ` <tr class="w3-black">
+        //         <th>${element.batch}</th>
+        //         <th>${element.mock_spoc}</th>
+        //         <th>${element.topic}</th>
+        //     </tr>   
+        //             `;
+        //     document.querySelector("#table2").insertAdjacentHTML('beforeend', newRow);
+        // });
 
-        upcomingBatch.forEach(element => {
-            const newRow = ` <tr class="w3-black">
-                <th>${element.batch}</th>
-                <th>${element.trainer}</th>
-                <th>${element.location}</th>
-            </tr>   
-                    `;
-            document.querySelector("#table3").insertAdjacentHTML('beforeend', newRow);
-        });
+        // upcomingBatch.forEach(element => {
+        //     const newRow = ` <tr class="w3-black">
+        //         <th>${element.batch}</th>
+        //         <th>${element.trainer}</th>
+        //         <th>${element.location}</th>
+        //     </tr>   
+        //             `;
+        //     document.querySelector("#table3").insertAdjacentHTML('beforeend', newRow);
+        // });
     </script>
 
 </body>
