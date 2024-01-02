@@ -1,19 +1,45 @@
 
 let batchList = [
+    // <!-- //om,abhish,suhas.satish,dev,lokesh ,exception vinoda,javascript -hareesha -->
 
     {
-        "batch": "june 5",
-        "trainer": "dev sir",
-        "topic": "collection"
+        "batch": "sep-27",
+        "trainer": "Omkar sir",
+        "topic": "Exception"
     }, {
-        "batch": "nov",
-        "trainer": "om sir",
-        "topic": "exception"
+        "batch": "nov-27",
+        "trainer": "Abhishek",
+        "topic": "static methods"
     },
     {
-        "batch": "nov",
-        "trainer": "om sir",
-        "topic": "exception"
+        "batch": "june-7",
+        "trainer": "Suhas",
+        "topic": "Project"
+    },
+    {
+        "batch": "online",
+        "trainer": "Satish sir",
+        "topic": "NA"
+    },
+    {
+        "batch": "june-5",
+        "trainer": "Dev sir",
+        "topic": "search operation in Spring"
+    },
+    {
+        "batch": "july-24",
+        "trainer": "Lokesh sir",
+        "topic": "JDBC"
+    },
+    {
+        "batch": "june-5",
+        "trainer": "vinoda",
+        "topic": "Exception"
+    },
+    {
+        "batch": " '' ''",
+        "trainer": "Hareesha",
+        "topic": "javascript"
     }
 ]
 

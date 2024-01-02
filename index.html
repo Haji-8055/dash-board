@@ -13,15 +13,9 @@
 </head>
 
 
-<style>
-    .Topicss {
-        margin-top: -1rem;
+<style> 
 
-        display: none;
-
-    }
-
-    body::before {
+    body:before {
         content: "";
 
         background-repeat: no-repeat, repeat;
@@ -37,6 +31,13 @@
         opacity: 0.5;
     }
 
+    .Topicss {
+        margin-top: -1rem;
+
+        display: none;
+
+    }
+
     table {
 
         margin-top: -1rem;
@@ -46,8 +47,14 @@
 
 <body>
 
+
+    <!-- <div class="w3-bar w3-black">
+        <div class="w3-bar-item"> <img src="https://x-workz.in/static/media/Logo.cf195593dc1b3f921369.png"
+                alt="xworkz logo" width="120" height="60"></div>
+    </div> -->
+
     <div class="Topicss w3-responsive w3-animate-left">
-        <h2 class="w3-center w3-blue">ONGOING BATCH STATUS</h2>
+        <h2 class="w3-center w3-blue"><b> ONGOING BATCH STATUS</b></h2>
 
         <table class="w3-table-all " id="table1">
             <tr class="w3-orange">
@@ -59,7 +66,7 @@
     </div>
 
     <div class="Topicss w3-responsive w3-animate-left">
-        <h2 class="w3-center w3-blue">WEEKLY MOCK TEST</h2>
+        <h2 class="w3-center w3-blue"><b>WEEKLY MOCK TEST</b></h2>
 
         <table class="w3-table-all" id="table2">
             <tr class="w3-orange">
@@ -71,7 +78,7 @@
     </div>
 
     <div class="Topicss w3-responsive w3-animate-left ">
-        <h2 class="w3-center w3-blue">UPCOMING BATCHES </h2>
+        <h2 class="w3-center w3-blue"><b>UPCOMING BATCHES</b> </h2>
 
         <table class="w3-table-all" id="table3">
             <tr class="w3-orange">
@@ -102,7 +109,7 @@
             };
 
             x[slideIndex - 1].style.display = "block";
-            setTimeout(slides, 4000);
+            setTimeout(slides, 8000);
 
 
         }
