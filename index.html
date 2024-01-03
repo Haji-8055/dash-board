@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="https://www.x-workz.in/static/media/Logo.cf195593dc1b3f921369.png">
 
     <script type="text/javascript" src="data.js"></script>
+    
 
 </head>
 
@@ -40,7 +41,7 @@
                 <th class="w3-center">Trainer</th>
                 <th class="w3-center">Topic</th>
                 <th class="w3-center">Timing</th>
-                <th class="w3-center">No of trainees</th>
+                <th class="w3-center">No of Trainees</th>
             </tr>
         </table>
     </div>
@@ -102,8 +103,7 @@
                 <th class="w3-center">${element.topic}</th>
                 <th class="w3-center">${element.timing}</th>
                 <th class="w3-center">${element.trainees}</th>
-            </tr>   
-                    `;
+            </tr> `;
             document.querySelector("#table1").insertAdjacentHTML('beforeend', newRow);
         });
 

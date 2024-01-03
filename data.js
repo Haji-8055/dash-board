@@ -33,14 +33,14 @@ let batchList = [
         "batch": "Aug-21 Rajajinagar",
         "trainer": "Vinoda",
         "topic": "Exception",
-        "timing":"6:00 AM",
+        "timing":"6:00 PM",
         "trainees":"11"
     },
     {
         "batch": "Aug-21 Rajajinagar",
         "trainer": "Hareesha",
         "topic": "Javascript",
-        "timing":"4:00 AM",
+        "timing":"4:00 PM",
         "trainees":"11"
     },
     {
